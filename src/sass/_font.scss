@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,400,500');
+
+h1, h2, h3, h4, h5, h6{
+	font-family: $rob;
+	font-weight: 400;
+}
+
+p{
+	font-family: $rob;
+	font-size: 0.6em;
+	font-weight: 300;
+}
+
+a{
+	text-decoration: none;
+	font-family: $rob;
+	font-weight: 400;
+	color: $white;
+}
+
+h1{
+	font-size: 1.2em;
+}
+
+h2{
+	font-size: 1em;
+}
+
+h3{
+	font-size: 0.9em;
+}
+
+h4{
+	font-size: 0.8em;
+}
+
+h5{
+	font-size: 0.7em;
+}
+
+h6{
+	font-size: 0.6em;
+}

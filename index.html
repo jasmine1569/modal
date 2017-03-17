@@ -3,19 +3,47 @@
 <head>
 	<meta charset="UTF-8">
 	<title>Document</title>
+	<link rel="stylesheet" href="dist/css/app.css">
+	<link rel="stylesheet" href="https://www.w3schools.com/w3css/3/w3.css">
 </head>
+
 <body>
+<div class="wrapper">
 
+<!-- <button onclick="document.getElementByID('open').style.display='block'" class="btn">Open Modal</button>
+<div id="open" class="modal--overlay">
+	<div class="modal">
+		<div class="modal__header">
+			<h1>Hello World</h1>
+			<a class="close" href="#">&times;</a>
+		</div>
+		<div class="modal__content">
+			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque voluptatem, dolorum esse vel nemo reiciendis error iste, labore blanditiis et deserunt soluta provident distinctio corrupti perspiciatis non quis voluptatibus architecto?</p>
+		</div>
+	</div>
+</div> -->
 
-	<div class="btn__price--blue"></div>
-	<div class="btn__price--blue"></div>
-	<div class="btn__price--blue"></div>
-	<div class="btn__price--blue"></div>
-	<div class="btn__price--blue"></div>
-	<div class="btn__price--blue"></div>
-	<div class="btn__price--blue"></div>
+<div class="w3-container">
+  <button onclick="document.getElementById('id01').style.display='block'" class="btn">Open Modal</button>
 
+  <div id="id01" class="w3-modal">
+    <div class="w3-modal-content w3-animate-top w3-card-8">
+      <header class="w3-container w3-teal"> 
+        <span onclick="document.getElementById('id01').style.display='none'" 
+        class="w3-button w3-display-topright">&times;</span>
+        <h2>Modal Header</h2>
+      </header>
+      <div class="w3-container">
+        <p>Some text..</p>
+        <p>Some text..</p>
+      </div>
+      <footer class="w3-container w3-teal">
+        <p>Modal Footer</p>
+      </footer>
+    </div>
+  </div>
+</div>
+</div>
 
-	
 </body>
 </html>

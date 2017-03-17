@@ -1,0 +1,79 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto:300,400,500");
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400; }
+
+p {
+  font-family: "Roboto", sans-serif;
+  font-size: 0.6em;
+  font-weight: 300; }
+
+a {
+  text-decoration: none;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  color: #ffffff; }
+
+h1 {
+  font-size: 1.2em; }
+
+h2 {
+  font-size: 1em; }
+
+h3 {
+  font-size: 0.9em; }
+
+h4 {
+  font-size: 0.8em; }
+
+h5 {
+  font-size: 0.7em; }
+
+h6 {
+  font-size: 0.6em; }
+
+body {
+  background-color: #0D1011; }
+
+.btn {
+  border: none;
+  border-radius: 50px;
+  text-decoration: none;
+  background-color: #4F99D3;
+  padding: 10px;
+  font-size: 1em;
+  width: 200px;
+  height: 70px;
+  margin: auto;
+  display: block;
+  margin-top: 60px; }
+
+.modal--overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  background-color: black;
+  transition: opacity 200ms;
+  visibility: hidden;
+  opacity: 0; }
+
+.modal {
+  margin: 75px auto;
+  padding: 20px;
+  background-color: #ffffff;
+  width: 300px;
+  position: relative; }
+
+.close {
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  top: 20px;
+  right: 20px;
+  opacity: 0.8;
+  transition: all 200ms;
+  font-size: 24px; }
+
+/*# sourceMappingURL=app.css.map */
